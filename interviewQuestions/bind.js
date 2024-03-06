@@ -3,9 +3,9 @@ const person = {
     name: "John",
   };
   
-  function greet(message) {
-    console.log(`${message}, ${this.name}!`);
+  function greet(message1,message2) {
+    console.log(`${message1},${message2}, ${this.name}!`);
   }
   
   const greetJohn = greet.bind(person);
-  greetJohn("Hi"); // Output: Hi, John!
+  greetJohn("Hi","there"); // Output: Hi, John!
