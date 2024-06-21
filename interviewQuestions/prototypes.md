@@ -9,17 +9,17 @@
 
 ### Prototypes
 <details>
-<summary>Basic Example
+<summary>Basic Example</summary>
 
 -Consider the array `arr` in JavaScript:
 ```javascript
 let arr = ["nan", "sivani"];
 
-#Prototype and Prototypal Chain:
+# Prototype and Prototypal Chain:
 
 In JavaScript, arrays are objects, and like all objects, they have prototypes. The array arr inherits from Array.prototype.
 
-#Here's how this works:
+# Here's how this works:
 
 -Array.prototype: The prototype of arrays includes built-in methods like push(), pop(), forEach(), etc.
 -Object.prototype: The prototype of Array.prototype itself, containing fundamental methods like toString() and hasOwnProperty().
@@ -29,7 +29,7 @@ In JavaScript, arrays are objects, and like all objects, they have prototypes. T
 console.log(arr.length); // Output: 2
 console.log(arr.toString()); // Output: nan,sivani
 
-In the first case, length is a property of the array itself. In the second, toString() is found on Array.prototype.
+-In the first case, length is a property of the array itself. In the second, toString() is found on Array.prototype.
 
 </details>
 
@@ -92,4 +92,3 @@ C --> D["null"]
 -`Prototype Chain:` The chain for object2 is object2 → object → Object.prototype → null.
 __proto__: This property is used to link object2 to object, establishing inheritance.
 </details>
-</summary>
