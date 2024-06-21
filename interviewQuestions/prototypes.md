@@ -11,18 +11,19 @@
 <details>
 <summary>Basic Example</summary>
 
-Consider the array `arr` in JavaScript:
+-Consider the array `arr` in JavaScript:
 ```javascript
 let arr = ["nan", "sivani"];
-Prototype and Prototypal Chain:
+
+#Prototype and Prototypal Chain:
 
 In JavaScript, arrays are objects, and like all objects, they have prototypes. The array arr inherits from Array.prototype.
 
-Here's how this works:
+#Here's how this works:
 
-Array.prototype: The prototype of arrays includes built-in methods like push(), pop(), forEach(), etc.
-Object.prototype: The prototype of Array.prototype itself, containing fundamental methods like toString() and hasOwnProperty().
-When you call a method on arr, JavaScript checks the array itself first, then Array.prototype, and finally Object.prototype.
+-Array.prototype: The prototype of arrays includes built-in methods like push(), pop(), forEach(), etc.
+-Object.prototype: The prototype of Array.prototype itself, containing fundamental methods like toString() and hasOwnProperty().
+-When you call a method on arr, JavaScript checks the array itself first, then Array.prototype, and finally Object.prototype.
 
 ```javascript
 console.log(arr.length); // Output: 2
