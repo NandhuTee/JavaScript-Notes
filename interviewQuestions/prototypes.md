@@ -9,7 +9,7 @@
 
 ### Prototypes
 <details>
-<summary>Basic Example</summary>
+<summary>Basic Example
 
 -Consider the array `arr` in JavaScript:
 ```javascript
@@ -92,4 +92,4 @@ C --> D["null"]
 -`Prototype Chain:` The chain for object2 is object2 → object → Object.prototype → null.
 __proto__: This property is used to link object2 to object, establishing inheritance.
 </details>
-```
+</summary>
