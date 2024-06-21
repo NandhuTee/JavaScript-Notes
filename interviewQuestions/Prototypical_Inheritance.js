@@ -22,7 +22,7 @@ function Person(firstName, lastName) {
   console.log(emp.firstName); // "John"
   console.log(emp.jobTitle); // "Developer"
   console.log(emp.getFullName()); // "John Doe"
-  In the above code:
+  //In the above code:
 
 /*Person is a constructor function that sets up a basic person object.
 Employee is another constructor function that inherits from Person using the Object.create method.
