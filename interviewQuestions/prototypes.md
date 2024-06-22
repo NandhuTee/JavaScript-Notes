@@ -15,7 +15,8 @@
 ```javascript
 let arr = ["nan", "sivani"];
 
-# Prototype and Prototypal Chain:
+// # Prototype and Prototypal Chain:
+
 
 In JavaScript, arrays are objects, and like all objects, they have prototypes. The array arr inherits from Array.prototype.
 
