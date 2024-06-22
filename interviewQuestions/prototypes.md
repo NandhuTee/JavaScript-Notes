@@ -46,8 +46,7 @@ console.log(arr.toString()); // Output: nan,sivani
 <summary>Prototype Chain Visualization</summary>
 Here’s how the prototype chain looks in this example:
 
-```
-mermaid
+```mermaid
 graph TD
 A["arr"] --> B["Array.prototype"]
 B --> C["Object.prototype"]
