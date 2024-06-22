@@ -59,9 +59,11 @@ C --> D["null"]
 
 #### Summary:
 
-- `Prototype`: A mechanism by which JavaScript objects inherit properties and methods from another object.
-- `Prototypal Chain`: The sequence of objects through which property lookups are made. For arr, it's arr → Array.prototype → Object.prototype.
-- `Prototypal Inheritance`: The process of inheriting properties from one object to another, allowing for the use of shared methods and properties.
+> **`Prototype`**: A mechanism by which JavaScript objects inherit properties and methods from another object.
+
+>**`Prototypal Chain`**: The sequence of objects through which property lookups are made. For arr, it's arr → Array.prototype → Object.prototype.
+
+>**`Prototypal Inheritance`**: The process of inheriting properties from one object to another, allowing for the use of shared methods and properties.
 </details>
 
 ### Prototypal Inheritance:
