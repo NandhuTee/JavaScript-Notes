@@ -12,10 +12,10 @@
 <summary>Basic Example</summary>
 
 -Consider the array `arr` in JavaScript:
-```javascript
+```JavaScript
 let arr = ["nan", "sivani"];
 
-### Prototype and Prototypal Chain: 
+# Prototype and Prototypal Chain:
 
 
 In JavaScript, arrays are objects, and like all objects, they have prototypes. The array arr inherits from Array.prototype.
@@ -26,7 +26,7 @@ In JavaScript, arrays are objects, and like all objects, they have prototypes. T
 --Object.prototype: The prototype of Array.prototype itself, containing fundamental methods like toString() and hasOwnProperty().
 --When you call a method on arr, JavaScript checks the array itself first, then Array.prototype, and finally Object.prototype.
 
-```javascript
+```JavaScript
 console.log(arr.length); // Output: 2
 console.log(arr.toString()); // Output: nan,sivani
 
