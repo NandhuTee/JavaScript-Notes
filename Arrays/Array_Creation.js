@@ -3,12 +3,16 @@
 
  //Arrays can be created using array literals or Array constructor.
 
- let arr=[];
- let arr2 = new Array();
+ let arr=[]; //create an array by Literal
+ let arr2 = new Array();// creation of an Array by Constructor
+ let arr3 = Array.of(1, 2);//Creates an array by Array.of
 
- arr= ['nandhu','apurva','jothi','surjoyday'];
+
+ arr= ['nandhu','apurva','jothi','surjoyday','1'];
  arr2=['mango','pineapple','watermelon'];
+ 
 
- console.log(arr[0]);
- console.log(arr2[2]);
+ console.log(arr[4]);
+ console.log(arr2[3]);
+ console.log(arr3[1]);
 

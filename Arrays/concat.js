@@ -8,5 +8,5 @@ console.log(newarr);
 let stringfromarray =newarr.join();
 console.log(stringfromarray);
 
-let stringwithseperator= newarr.join(" ");
+let stringwithseperator= newarr.join("-");
 console.log(stringwithseperator);

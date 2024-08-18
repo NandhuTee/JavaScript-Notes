@@ -7,7 +7,7 @@
     function innerFunction() {
       console.log(outerVar); // Inner function has access to outerVar
     }
-  
+ 
     return innerFunction;
   }
   
