@@ -5,7 +5,7 @@
 //the display function takes a call back function add and logs the result of invoking add with arguments 3,2
 
 function sum(a,b){  //The sum function takes two parameters, a and b, and returns their sum.
-    return a+b;
+       return a+b;
 }
 
 function display(add){ 
@@ -14,3 +14,6 @@ function display(add){
 
 display(sum); //The display function takes a function as its argument (add).
 
+/*Explanation:
+Higher-Order Function: The display function is considered a higher-order function because it takes another function (sum) as an argument.
+Callback Function: The sum function acts as a callback function because it is passed to display and invoked within it.*/
