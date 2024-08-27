@@ -2,7 +2,7 @@
 // Create an object
 const Mobile = {
     MobileName: "motoedgefusion",
-   // Mobileprice1: 40000,
+   //Mobileprice1: 40000;
   };
   
   // Access properties using dot notation

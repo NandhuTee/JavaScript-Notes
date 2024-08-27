@@ -20,7 +20,8 @@ const person = {
   // Set the prototype of `employee` to `person`
   employee.__proto__ = person;
   
-  console.log(employee.firstName); // "John" (inherited from `person`)
+  console.log(employee.firstName); // "John" (inherited from `person`) 
   console.log(employee.jobTitle); // "Developer" (own property)
-  console.log(employee.getFullName()); // "John Doe" (inherited from `person`)
-  
+  console.log(employee.getFullName()); // "John Doe" (inherited from `person`) 
+  console.log(person.jobTitle);
+  console.log(employee.city); 
