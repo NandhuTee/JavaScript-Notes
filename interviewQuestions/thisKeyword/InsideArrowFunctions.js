@@ -11,3 +11,11 @@ const person = {
 person.greet(); // Logs undefined (or the global `this` depending on the environment)
 
 //The behavior of this in arrow functions remains the same in strict mode.
+
+const person1 = {
+    name: 'nandhu',
+    greet: function()  {
+        console.log(this.name);
+    }
+};
+person1.greet(); // Logs nandhu
