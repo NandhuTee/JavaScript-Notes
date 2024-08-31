@@ -1,4 +1,6 @@
-`mermaid
+# Shallow Copy vs Deep Copy Diagram
+
+```mermaid
 graph LR
     subgraph Shallow Copy
         A1[Original Object] --> B1[Nested Object 1]
