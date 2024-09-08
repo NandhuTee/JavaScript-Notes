@@ -1,4 +1,4 @@
-/*he call method is used to invoke a function with a specific this value and arguments provided individually.*/
+/*the call method is used to invoke a function with a specific this value and arguments provided individually.*/
 
 const person = {
     fullName: function(city, country) {

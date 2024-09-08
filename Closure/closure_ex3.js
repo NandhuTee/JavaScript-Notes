@@ -2,8 +2,8 @@
 
    //javascript
    function createCounter() {
-     let count = 0;//closure over the count variable
-
+    let count = 0;//closure over the count variable
+ 
      return {
        increment: function () {
          count++; //hiding the internal state

@@ -15,6 +15,7 @@ const person2 = {
 const boundFullName = person.fullName.bind(person2);
 
 console.log(boundFullName()); 
+
 // Output: "Bob Brown"
 /*Creates a new function with a specific this value .
 Returns a new function with the this value bound, useful for delayed execution.*/

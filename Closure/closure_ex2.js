@@ -1,5 +1,6 @@
 //The program demonstrates the concept of closures using a callback function scenario.
 function greeting(name) {
+  
     return function() {
       console.log(`Hello, ${name}!`);
     };
