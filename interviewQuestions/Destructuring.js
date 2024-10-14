@@ -19,3 +19,10 @@ function greet({ name, age }) {
   
   greet({ name: 'Alice', age: 25 });
   
+
+  function greet1({...num}){
+    console.log(typeof(num));
+    console.log(num);
+  }
+
+  greet1([1,2,34,5]);

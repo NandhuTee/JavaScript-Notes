@@ -6,7 +6,8 @@ console.log(arr[4]);
 arr.push(6);//add at the end of the array
 arr.unshift(-1);//insert element at the start of the array.
 
-console.log(arr);
+console.log(arr)
+;
 arr.forEach((item,index,arr)=>{
     //forEach modify the original array
 arr[index] =item**2;

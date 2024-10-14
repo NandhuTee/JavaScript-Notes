@@ -8,7 +8,7 @@
  let arr3 = Array.of(1, 2);//Creates an array by Array.of
 
 
- arr= ['nandhu','apurva','jothi','surjoyday','1'];
+ arr= ['nandhu','apurva','jothi','surjoyday','1',true, null,undefined];
  arr2=['mango','pineapple','watermelon'];
  
 
